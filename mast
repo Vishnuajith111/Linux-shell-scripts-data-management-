@@ -1,0 +1,5 @@
+#!/bin/bash
+
+src_dir="Home/bioinformatics/Desktop/msa/meme/"
+dst_dir="Home/bioinformatics/Desktop/msa/meme results txt/"
+  find "$src_dir" -name "*.txt" -type f -exec cp {} "$dst_dir" \;
